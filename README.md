@@ -3,3 +3,5 @@
 ### Installation
 
 `npm install @architecturex/utils.string`
+
+# Usage
