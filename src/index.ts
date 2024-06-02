@@ -5,6 +5,12 @@ const str = {
     }
 
     return text
+  },
+  initials(str: string): string {
+    return str
+      .split(' ')
+      .map((word) => word[0].toUpperCase())
+      .join('')
   }
 }
 
